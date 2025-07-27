@@ -146,30 +146,21 @@ is used to generate the APB peripheral select lines.
  
 **The design files are attached in the repository along with the AHB Master and APB Slave which generates the appropriate signals. Only the Bridge is synthesizable and other modules are used as testbenches only to generate the necessary read/write operations. Below are the screenshots from the synthesis and the simulator tool**
 
-# Simulation Results
-
-It consists of a write operation followed by a read operation on the AHB Bus which is successfully mapped to the APB bus according to the interfacing.
+# Simulation Results:
 
 ![simulation_AHBtoAPB](https://user-images.githubusercontent.com/91010702/194483573-0e104260-c1b7-4810-88fe-c9aa4a32395f.png)
 
-# Synthesis Results
+# Synthesis Results:
 
 RTL Model:
 ![bridge_rtl](https://user-images.githubusercontent.com/91010702/194485990-f8ff7727-387e-42ef-8fa7-d39034216ffc.png)
 
 State Machine Viewer:
 ![bridge_fsm](https://user-images.githubusercontent.com/91010702/194485981-4a8f44e9-390b-4100-84b3-abe9c4930377.png)
-
-
-# Further Work
-
-- Include functionality for burst read and burst write operations in AHB Master
-- Include an arbitration mechanism and arbitration signals to generalise the testbench
-
 # Documentation
 
-- AMBA Modules | Chapter 4 | [AMBA Modules.pdf](https://github.com/prajwalgekkouga/AHB-to-APB-Bridge/files/9731505/AMBA.Modules.pdf)
-- AMBA Specifications | Chapter 1,2,3 and 5 | [AMBA Specifications.pdf](https://github.com/prajwalgekkouga/AHB-to-APB-Bridge/files/9731507/AMBA.Specifications.pdf)
+- AMBA Modules | [AMBA Modules.pdf](https://github.com/prajwalgekkouga/AHB-to-APB-Bridge/files/9731505/AMBA.Modules.pdf)
+- AMBA Specifications | [AMBA Specifications.pdf](https://github.com/prajwalgekkouga/AHB-to-APB-Bridge/files/9731507/AMBA.Specifications.pdf)
 
 
 
