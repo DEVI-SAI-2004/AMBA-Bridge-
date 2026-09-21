@@ -158,3 +158,12 @@ RTL Model:
 State Machine Viewer:
 ![bridge_fsm](https://user-images.githubusercontent.com/91010702/194485981-4a8f44e9-390b-4100-84b3-abe9c4930377.png)
 ![](https://user-images.githubusercontent.com/
+## 📂 Repository File Structure
+
+```text
+├── AHB_master.v         
+├── AHB_slave_interface.v 
+├── APB_Controller.v      
+├── APB_Interface.v       
+├── Bridge_top.v         
+└── test_bench.v
